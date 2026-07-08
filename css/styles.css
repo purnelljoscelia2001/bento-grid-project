@@ -1,2 +1,50 @@
-.attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.attribution { 
+    font-size: 0.6875rem; text-align: center; }
+ .attribution a {
+         color: hsl(228, 45%, 44%); }
+
+:root {
+        --lightpurple: hsl(254, 88%, 90%);
+        --darkpurple: hsl(256, 67%, 59%);
+        --lightyellow: hsl(31, 66%, 93%);
+        --darkyellow: hsl(39, 100%, 71%);
+        --white: hsl(0, 0%, 100%);
+        --black: hsl(0, 100%, 0%);
+    }
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.card1 {
+    background-color: var(--darkpurple);
+}
+
+.card2 {
+    background-color: var(--white);
+}
+
+.card3 {
+    background-color: var(--darkyellow);
+}
+
+.card4 {
+    background-color: var(--lightpurple);
+}
+
+.card5 {
+    background-color: var(--darkpurple);
+}
+
+.card6 {
+    background-color: var(--white);
+}
+
+.card7 {
+    background-color: var(--lightyellow);
+}
+
+.card8 {
+    background-color: var(--darkpurple);
+}
