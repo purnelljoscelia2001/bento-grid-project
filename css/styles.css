@@ -15,10 +15,20 @@
     }
 body {
     font-family: "DM Sans", sans-serif;
+    font-size: 18px;
 }
 
 .card1 {
     background-color: var(--darkpurple);
+    color: var(--white);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.yellow {
+    color: var(--darkyellow);
 }
 
 .card2 {
@@ -35,6 +45,7 @@ body {
 
 .card5 {
     background-color: var(--darkpurple);
+    color: var(--white);
 }
 
 .card6 {
@@ -47,4 +58,9 @@ body {
 
 .card8 {
     background-color: var(--darkpurple);
+}
+
+.purple {
+    color: var(--darkpurple);
+    font-style: italic;
 }
